@@ -9,6 +9,28 @@ class MainWindow(QtWidgets.QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
         self.show()
+        self.ui.zerobotao.clicked.connect()
+        self.ui.um_botao.clicked.connect()
+        self.ui.dois_botao.clicked.connect()
+        self.ui.tres_botao.clicked.connect()
+        self.ui.quatro_botao.clicked.connect()
+        self.ui.cinco_botao.clicked.connect()
+        self.ui.seis_botao.clicked.connect()
+        self.ui.sete_botao.clicked.connect()
+        self.ui.oito_botao.clicked.connect()
+        self.ui.nove_botao.clicked.connect()
+        self.ui.virgulabotao.clicked.connect()
+        self.ui.multiplicacaobotao.clicked.connect()
+        self.ui.subtracaobotao.connect()
+        self.ui.adicao_botao.clicked.connect()
+        self.ui.divisaoBotao.clicked.connect()
+        self.ui.porcentagembotao.clicked.connect()
+        self.ui.clearBottom.clicked.connect()
+        self.ui.clearAllBottom.clicked.connect()
+        self.ui.igualbotao.clicked.connect()
+        
+
+        
 
 
 
